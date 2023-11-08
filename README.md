@@ -8,5 +8,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 Once this has been executed, run ':PlugInstall' in any nvim file.
 
-You can then do ':PlugInstall' in any nvim file, and then install any LSP's you need using Coc... 👍
+Now install any LSP's you need using Coc... 👍
 
