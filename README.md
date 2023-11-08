@@ -8,4 +8,5 @@ An important line of code that needs to be executed in the terminal (for MacOS) 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
+You then must do ':PlugInstall' in any nvim file, and then install any LSP's you need using Coc.
 
