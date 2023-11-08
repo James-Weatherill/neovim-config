@@ -5,7 +5,6 @@ vim.opt.number = true
 vim.cmd [[autocmd TermOpen * setlocal nonumber norelativenumber]]
 
 
-
 -- This block of code will give codefolding, set the automatic -- 
 -- folding points to where the code is indented, and make each --
 -- file remember the depth and placement of the folds on save  --
