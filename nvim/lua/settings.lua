@@ -10,8 +10,8 @@ vim.cmd [[autocmd TermOpen * setlocal nonumber norelativenumber]]
 -- folding points to where the code is indented, and make each --
 -- file remember the depth and placement of the folds on save  --
 
-vim.cmd('set foldenable')
-vim.cmd('set foldmethod=indent')
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 vim.cmd [[
   augroup remember_folds

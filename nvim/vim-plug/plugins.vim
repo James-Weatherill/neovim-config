@@ -10,7 +10,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " nvim-coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " nvim-dracula 
-    Plug 'maxmx03/dracula.nvim'
-
+    " nvim-dracula:
+    Plug 'Mofiqul/dracula.nvim'
+    " nvim-treesitter
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    
 call plug#end()
