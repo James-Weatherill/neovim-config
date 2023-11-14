@@ -9,6 +9,7 @@ vim.opt.mouse = ""
 vim.api.nvim_set_keymap('n', '<C-c>', '<C-[>', { noremap = true })
 vim.api.nvim_set_keymap('t', '<C-c>', '<C-\\><C-N>', { noremap = true })
 
+
 -- This will set the <Leader> key to be ','
 
 vim.api.nvim_set_var("mapleader", ",")
