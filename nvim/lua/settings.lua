@@ -20,11 +20,3 @@ vim.cmd [[
     autocmd BufWinEnter * silent! loadview
   augroup END
 ]]
-
-
--- This will make the <tab> act with the specified values                            --
-
-vim.opt.tabstop = 2 -- How much whitespace will 'tab' produce (e.g. 2 spaces worth) --
-vim.opt.shiftwidth = 2 -- How much whitespace will autoindentation take up          --
-vim.opt.expandtab = true -- Turn 'tab' presses into spaces                          --
-vim.opt.softtabstop = 2 -- How much whitespace will be deleted when deleting a tab  --
