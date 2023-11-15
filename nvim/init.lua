@@ -10,5 +10,3 @@ require('colourschemes')
 require('keybindings')
 require('settings')
 require('treesitter')
-
--- --
