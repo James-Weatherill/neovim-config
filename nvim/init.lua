@@ -6,9 +6,9 @@ vim.cmd [[source /Users/james/.config/nvim/vim-plug/plugins.vim]]
 -- Requirements --
 
 require('coc')
-require('colorschemes')
-require('keymappings')
-require('treesitter')
+require('colourschemes')
+require('keybindings')
 require('settings')
+require('treesitter')
 
 -- --
